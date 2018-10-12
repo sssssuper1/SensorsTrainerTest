@@ -1,0 +1,29 @@
+PODS:
+  - Signals (4.0.0)
+  - SwiftySensors (0.3.3):
+    - Signals (~> 4.0)
+    - SwiftySensors/Serializers (= 0.3.3)
+  - SwiftySensors/Serializers (0.3.3):
+    - Signals (~> 4.0)
+  - SwiftySensorsTrainers (0.3.4):
+    - Signals (~> 4.0)
+    - SwiftySensors (~> 0.3)
+
+DEPENDENCIES:
+  - SwiftySensors
+  - SwiftySensorsTrainers
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Signals
+    - SwiftySensors
+    - SwiftySensorsTrainers
+
+SPEC CHECKSUMS:
+  Signals: 6d818e1b7c39f2bf61cfef30bf314329990d1853
+  SwiftySensors: d4d6a644bc253eeaeb3327ea5bc20edf4a3f9bf1
+  SwiftySensorsTrainers: 84f5e18f9d1471fcf6d78884deafa4c8dd65865f
+
+PODFILE CHECKSUM: b076cfe656c4b5babbbb804433a506843a53484e
+
+COCOAPODS: 1.5.3
