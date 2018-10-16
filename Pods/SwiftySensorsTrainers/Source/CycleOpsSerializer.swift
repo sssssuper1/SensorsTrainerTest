@@ -41,7 +41,7 @@ open class CycleOpsSerializer {
     
     
     
-    open static func setControlMode(_ mode: ControlMode, parameter1: Int16 = 0, parameter2: Int16 = 0) -> [UInt8] {
+    public static func setControlMode(_ mode: ControlMode, parameter1: Int16 = 0, parameter2: Int16 = 0) -> [UInt8] {
         return [
             0x00, 0x10,
             mode.rawValue,
@@ -51,7 +51,7 @@ open class CycleOpsSerializer {
         ]
     }
     
-    open static func readReponse(_ data: Data) -> Response? {
+    public static func readReponse(_ data: Data) -> Response? {
         let bytes = (data as NSData).bytes.bindMemory(to: UInt8.self, capacity: data.count)
         var index: Int = 0
         let _ = ((UInt16)(bytes[index++=])) | ((UInt16)(bytes[index++=])) << 8 //  response code

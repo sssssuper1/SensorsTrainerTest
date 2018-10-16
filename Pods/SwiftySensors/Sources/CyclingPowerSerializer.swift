@@ -81,14 +81,14 @@ open class CyclingPowerSerializer {
     }
     
     
-    open static func readFeatures(_ data: Data) -> Features {
+    public static func readFeatures(_ data: Data) -> Features {
         let bytes = (data as NSData).bytes.bindMemory(to: UInt8.self, capacity: data.count)
         let rawFeatures: UInt32 = ((UInt32)(bytes[0])) | ((UInt32)(bytes[1])) << 8 | ((UInt32)(bytes[2])) << 16 | ((UInt32)(bytes[3])) << 24
         return Features(rawValue: rawFeatures)
     }
     
     
-    open static func readMeasurement(_ data: Data) -> MeasurementData {
+    public static func readMeasurement(_ data: Data) -> MeasurementData {
         var measurement = MeasurementData()
         
         let bytes = (data as NSData).bytes.bindMemory(to: UInt8.self, capacity: data.count)

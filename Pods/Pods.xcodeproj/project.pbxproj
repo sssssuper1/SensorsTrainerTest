@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -121,7 +121,7 @@
 		3D304CEFA7842A6AB22EF7A2DFB356D5 /* SwiftySensorsTrainers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftySensorsTrainers-dummy.m"; sourceTree = "<group>"; };
 		443BA7B8F165066F1B0E4F3A9313DB8D /* HeartRateSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeartRateSerializer.swift; path = Sources/HeartRateSerializer.swift; sourceTree = "<group>"; };
 		4457F75F0929FC4EE37A0E8D9A60737D /* AssociatedObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssociatedObject.swift; path = Signals/ios/AssociatedObject.swift; sourceTree = "<group>"; };
-		4592093B06F5792084A4C4E5041AD612 /* Pods_SensorsTrainerTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SensorsTrainerTest.framework; path = "Pods-SensorsTrainerTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4592093B06F5792084A4C4E5041AD612 /* Pods_SensorsTrainerTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SensorsTrainerTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADBD127A2907070689CC8ED1AE53A02 /* Pods-SensorsTrainerTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SensorsTrainerTest.release.xcconfig"; sourceTree = "<group>"; };
 		4B9A844659A4DCEEF7EE0E76975EB3ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		511DBECAE81D3BB599C0F33BE1FDE360 /* SwiftySensors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftySensors-umbrella.h"; sourceTree = "<group>"; };
@@ -135,9 +135,9 @@
 		7C2A779767316EDE16AFA023158A0030 /* RSSINormalizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSSINormalizer.swift; path = Sources/RSSINormalizer.swift; sourceTree = "<group>"; };
 		8628573DE4B84DD6C92343084CC4DBA9 /* SwiftySensorsTrainers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftySensorsTrainers.modulemap; sourceTree = "<group>"; };
 		914DB525FACDC038242457F8F954F772 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93D43DE08F94503D436837C6840D4BBC /* KineticSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KineticSDK.h; path = Headers/KineticSDK.h; sourceTree = "<group>"; };
-		ACA196B8023F83FF32C100E609DA9257 /* SwiftySensorsTrainers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftySensorsTrainers.framework; path = SwiftySensorsTrainers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA196B8023F83FF32C100E609DA9257 /* SwiftySensorsTrainers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftySensorsTrainers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7F565C427AC3A55E36365E3507C16E /* SmartControlService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartControlService.swift; path = Source/SmartControlService.swift; sourceTree = "<group>"; };
 		B59B811936FACAA0B3A09A8A01987235 /* Pods-SensorsTrainerTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SensorsTrainerTest.debug.xcconfig"; sourceTree = "<group>"; };
 		B89FCE5FDDAEA4EAC5A085E52386CADB /* Signals.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Signals.xcconfig; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 		DDB50588880339462521B668050E90BE /* SwiftySensors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftySensors-dummy.m"; sourceTree = "<group>"; };
 		E0F95F768E493BD0A3AF4EBE3E601715 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E378B4ED32949228B7E79AD7AE816207 /* CycleOpsService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CycleOpsService.swift; path = Source/CycleOpsService.swift; sourceTree = "<group>"; };
-		E64C9F88EEEB488370B744E59938ED0D /* Signals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Signals.framework; path = Signals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64C9F88EEEB488370B744E59938ED0D /* Signals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Signals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E922D71D00695F3C7BE78225C55442B2 /* Pods-SensorsTrainerTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SensorsTrainerTest-frameworks.sh"; sourceTree = "<group>"; };
 		E9891D22D4850F6367C9E02F4846FC97 /* UIControl+Signals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControl+Signals.swift"; path = "Signals/ios/UIControl+Signals.swift"; sourceTree = "<group>"; };
 		EA6FBA81688F459EE00CF9AB59E20C78 /* libKineticSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libKineticSDK.a; path = Libraries/libKineticSDK.a; sourceTree = "<group>"; };
@@ -164,7 +164,7 @@
 		F1DA89BC9EB22790FF69572C63BC30AD /* CyclingSpeedCadenceSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CyclingSpeedCadenceSerializer.swift; path = Sources/CyclingSpeedCadenceSerializer.swift; sourceTree = "<group>"; };
 		F406DE4313BFC14194F80EBA7C865F38 /* CycleOpsSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CycleOpsSerializer.swift; path = Source/CycleOpsSerializer.swift; sourceTree = "<group>"; };
 		F8D30407E79E4CBA85A26B6E7E6FAFF1 /* Signals-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Signals-dummy.m"; sourceTree = "<group>"; };
-		FD519F5D3E373308704482BC4A75B003 /* SwiftySensors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftySensors.framework; path = SwiftySensors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD519F5D3E373308704482BC4A75B003 /* SwiftySensors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftySensors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,7 +240,6 @@
 				E9891D22D4850F6367C9E02F4846FC97 /* UIControl+Signals.swift */,
 				87DC35F9A9EB892D8A3AAE716D29F6DB /* Support Files */,
 			);
-			name = Signals;
 			path = Signals;
 			sourceTree = "<group>";
 		};
@@ -265,7 +264,6 @@
 				BC16B20434F00CA86E6D21A893444E46 /* Serializers */,
 				7B904839368BF8718142F8313D60D1C4 /* Support Files */,
 			);
-			name = SwiftySensors;
 			path = SwiftySensors;
 			sourceTree = "<group>";
 		};
@@ -385,7 +383,6 @@
 				7BEB5FC449148340B237D7B3F1453EC0 /* Frameworks */,
 				7FBB69CFD9C9A5E3B9241AB6EF9B0D0D /* Support Files */,
 			);
-			name = SwiftySensorsTrainers;
 			path = SwiftySensorsTrainers;
 			sourceTree = "<group>";
 		};
@@ -519,7 +516,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					06B19288171D9812AA51BE4DB125CDBB = {
+						LastSwiftMigration = 1000;
+					};
+					39EFAAE0F792542C945EDC8142AB3EEB = {
+						LastSwiftMigration = 1000;
+					};
+					A524D40C6B347D4499F25CC11DA05A8F = {
+						LastSwiftMigration = 1000;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -659,11 +667,7 @@
 				INFOPLIST_FILE = "Target Support Files/SwiftySensorsTrainers/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftySensorsTrainers/SwiftySensorsTrainers.modulemap";
 				PRODUCT_MODULE_NAME = SwiftySensorsTrainers;
 				PRODUCT_NAME = SwiftySensorsTrainers;
@@ -671,7 +675,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -696,11 +700,7 @@
 				INFOPLIST_FILE = "Target Support Files/SwiftySensors/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftySensors/SwiftySensors.modulemap";
 				PRODUCT_MODULE_NAME = SwiftySensors;
 				PRODUCT_NAME = SwiftySensors;
@@ -708,7 +708,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -796,11 +796,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SensorsTrainerTest/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SensorsTrainerTest/Pods-SensorsTrainerTest.modulemap";
 				OTHER_LDFLAGS = "";
@@ -835,11 +831,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SensorsTrainerTest/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SensorsTrainerTest/Pods-SensorsTrainerTest.modulemap";
 				OTHER_LDFLAGS = "";
@@ -874,11 +866,7 @@
 				INFOPLIST_FILE = "Target Support Files/Signals/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Signals/Signals.modulemap";
 				PRODUCT_MODULE_NAME = Signals;
 				PRODUCT_NAME = Signals;
@@ -886,7 +874,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -911,11 +899,7 @@
 				INFOPLIST_FILE = "Target Support Files/SwiftySensors/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftySensors/SwiftySensors.modulemap";
 				PRODUCT_MODULE_NAME = SwiftySensors;
 				PRODUCT_NAME = SwiftySensors;
@@ -923,7 +907,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -947,11 +931,7 @@
 				INFOPLIST_FILE = "Target Support Files/Signals/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Signals/Signals.modulemap";
 				PRODUCT_MODULE_NAME = Signals;
 				PRODUCT_NAME = Signals;
@@ -959,7 +939,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -983,11 +963,7 @@
 				INFOPLIST_FILE = "Target Support Files/SwiftySensorsTrainers/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftySensorsTrainers/SwiftySensorsTrainers.modulemap";
 				PRODUCT_MODULE_NAME = SwiftySensorsTrainers;
 				PRODUCT_NAME = SwiftySensorsTrainers;
@@ -995,7 +971,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1056,6 +1032,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;

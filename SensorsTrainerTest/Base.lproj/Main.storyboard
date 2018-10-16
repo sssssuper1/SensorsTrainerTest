@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bj3-cG-0Vg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bj3-cG-0Vg">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -68,7 +67,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jU3-X3-X0P">
-                                <rect key="frame" x="160" y="75" width="54" height="25.5"/>
+                                <rect key="frame" x="160.5" y="75" width="54" height="25.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -103,13 +102,13 @@
                                 </subviews>
                             </stackView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pvl-J9-qH7">
-                                <rect key="frame" x="139" y="190" width="97" height="30"/>
+                                <rect key="frame" x="139" y="189" width="97" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="4i8-Fr-BBq">
-                                <rect key="frame" x="41" y="247" width="293" height="29"/>
+                                <rect key="frame" x="41" y="246" width="293" height="29"/>
                                 <segments>
                                     <segment title="ERG"/>
                                     <segment title="Standard"/>
@@ -119,6 +118,13 @@
                                     <action selector="changeModel:" destination="iBa-zA-rpV" eventType="valueChanged" id="ESo-gy-gQj"/>
                                 </connections>
                             </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hL-bc-IRV">
+                                <rect key="frame" x="167.5" y="318.5" width="40" height="30"/>
+                                <state key="normal" title="SEND"/>
+                                <connections>
+                                    <action selector="send:" destination="iBa-zA-rpV" eventType="touchUpInside" id="vre-yi-Mgp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -128,11 +134,13 @@
                             <constraint firstItem="i0W-Kx-6XM" firstAttribute="top" secondItem="jU3-X3-X0P" secondAttribute="bottom" constant="11" id="FMO-Aq-Y79"/>
                             <constraint firstItem="jU3-X3-X0P" firstAttribute="top" secondItem="1dx-nV-b1x" secondAttribute="top" constant="11" id="HVu-Pn-CEd"/>
                             <constraint firstItem="Pvl-J9-qH7" firstAttribute="leading" secondItem="1dx-nV-b1x" secondAttribute="leading" constant="139" id="SRh-dW-EGC"/>
+                            <constraint firstItem="0hL-bc-IRV" firstAttribute="centerX" secondItem="y9O-Wa-NhS" secondAttribute="centerX" id="bfh-Jf-ZVY"/>
                             <constraint firstItem="i0W-Kx-6XM" firstAttribute="trailing" secondItem="y9O-Wa-NhS" secondAttribute="trailingMargin" id="bl7-Qa-Yw5"/>
                             <constraint firstItem="Pvl-J9-qH7" firstAttribute="top" secondItem="i0W-Kx-6XM" secondAttribute="bottom" constant="57" id="dCE-CU-8E4"/>
                             <constraint firstItem="jU3-X3-X0P" firstAttribute="centerX" secondItem="i0W-Kx-6XM" secondAttribute="centerX" id="eLV-aG-uyD"/>
                             <constraint firstItem="i0W-Kx-6XM" firstAttribute="centerX" secondItem="Pvl-J9-qH7" secondAttribute="centerX" id="hc1-Mk-7Vq"/>
                             <constraint firstItem="4i8-Fr-BBq" firstAttribute="top" secondItem="Pvl-J9-qH7" secondAttribute="bottom" constant="27" id="n7e-g8-1FG"/>
+                            <constraint firstItem="0hL-bc-IRV" firstAttribute="centerY" secondItem="y9O-Wa-NhS" secondAttribute="centerY" id="tXx-0e-l6N"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1dx-nV-b1x"/>
                     </view>
